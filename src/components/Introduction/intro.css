@@ -1,0 +1,10 @@
+.intro-1{
+    background-color: #6b1e9c;
+    height: 100vh;
+}
+.intro-btn{
+    background-color: #67ba24;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+}
