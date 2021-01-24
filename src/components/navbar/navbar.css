@@ -14,14 +14,23 @@
     justify-content:space-evenly;
     font-family: 'Patua One', cursive;
     color:white;
-    background-color:transparent;
     z-index:1000;
+}
+.mob-nav{
+    display:flex;
+    margin-left: 0rem;
+    position:fixed;
+    width: 100%;
+    font-family: 'Patua One', cursive;
+    z-index:1000;
+    justify-content:flex-start
 }
 .nav-option{
     display:flex;
     align-self: center;
-    /* margin-left:3rem;
-    margin-right: 3em; */
+}
+.option:hover{
+    color:rgb(232, 224, 240);
 }
 .option{
     margin-left:1rem;
@@ -37,19 +46,3 @@
     font-family: 'Patua One', cursive;
     border:none;
 }
-
-.menuIcon{
-    display:none;
-    
-}
-
-@media (max-width: 768px) {
-    .menuIcon {
-        display: inline;
-        align-self:flex-end
-    }
-    .nav-content-wrapper{
-        display:none;
-        
-    }
-  }
