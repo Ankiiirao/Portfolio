@@ -1,24 +1,55 @@
-img{
-    height:50px;
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #67ba24;
+    /* margin-left:3rem; */
     cursor:pointer;
 }
 .navbar-1{
     display:flex;
-    /* border:1px solid black; */
-    justify-content:space-around;
+    margin-left: 0rem;
+    position:fixed;
+    width: 100%;
+    justify-content:space-evenly;
+    font-family: 'Patua One', cursive;
+    color:white;
+    background-color:transparent;
+    z-index:1000;
 }
 .nav-option{
     display:flex;
+    align-self: center;
+    /* margin-left:3rem;
+    margin-right: 3em; */
 }
-p{
+.option{
     margin-left:1rem;
     cursor:pointer;
     font-weight: 600;
 }
 .navbar-btn{
-    background: transparent;
-    border-color: black;
+    background-color: #67ba24;
     height: fit-content;
     padding: 1rem 2rem;
     align-self: center;
+    color: white;
+    font-family: 'Patua One', cursive;
+    border:none;
 }
+
+.menuIcon{
+    display:none;
+    
+}
+
+@media (max-width: 768px) {
+    .menuIcon {
+        display: inline;
+        align-self:flex-end
+    }
+    .nav-content-wrapper{
+        display:none;
+        
+    }
+  }

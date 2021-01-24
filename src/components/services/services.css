@@ -1,0 +1,34 @@
+.services-wrapper{
+    display:flex;
+    flex-flow: row nowrap; 
+    padding:2rem;
+    font-family: 'Patua One', cursive;
+}
+.services-introduction{
+    width: 40%;
+    text-align: left;
+    padding:1rem;
+    margin:1rem;
+}
+.web-service{
+    height:fit-content;
+    width:50vw;
+    padding:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    z-index: 10;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.web-1{
+    font-weight: 800;
+    text-align:left;
+    font-size: larger;
+}
+.web-2{
+    text-align:left;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+

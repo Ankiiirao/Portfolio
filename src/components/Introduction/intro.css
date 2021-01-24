@@ -1,10 +1,26 @@
 .intro-1{
     background-color: #6b1e9c;
-    height: 100vh;
-}
-.intro-btn{
-    background-color: #67ba24;
-    border: none;
-    padding: 1rem 2rem;
+    height: 90vh;
     color: white;
+    display:flex;
+    justify-content: space-around;
+}
+.into-wrapper{
+    text-align: left;
+    width: fit-content;
+    margin-top:8rem;
+    font-family: 'Patua One', cursive;
+}
+.img-logo{
+    width: 50%;
+    height: 80%;
+    margin-top: 8%;
+}
+.intro-p{
+    margin: 0;
+    font-size: 1.3rem;
+}
+.intro-h1{
+    margin: 0;
+    font-size: 3rem;
 }

@@ -1,0 +1,26 @@
+.footer-wrapper{
+    display:flex;
+    font-family: 'Patua One', cursive;
+    flex-direction: column;
+}
+.footer-1{
+    display:flex;
+    flex-flow: row nowrap;
+    padding:1rem;
+    justify-content:center;
+    background-color:#e9f0ea;
+}
+.footer-title{
+    margin-top:2rem;
+    margin-right:3rem;
+}
+.footer-2{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    background-color:#6b1e9c;
+    padding:2rem
+}
+.footer-info{
+    margin:0;
+}

@@ -1,0 +1,23 @@
+.skills-wrapper{
+    display:flex;
+    flex-direction: column;
+    padding:2rem;
+    font-family: 'Patua One', cursive;
+}
+.skills-heading{
+    font-weight:700;
+    margin:0;
+    font-size:2rem;
+}
+.skill-percent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skills-head{
+    width:50%;
+    align-self:center;
+}
+.sub-title{
+margin:0;
+}
